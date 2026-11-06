@@ -1,0 +1,7 @@
+.gradle/
+.venv/
+build/
+.idea/
+__pycache__/
+*.tape.json
+!examples/*.tape.json

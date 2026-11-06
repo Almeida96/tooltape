@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "calls": [
+    {"id": "ticket-open", "name": "lookup_ticket", "arguments": {"id": "INC-1042"}},
+    {"id": "incidents-api", "name": "list_incidents", "arguments": {"service": "payments-api"}},
+    {"id": "ticket-missing", "name": "lookup_ticket", "arguments": {"id": "INC-0000"}}
+  ]
+}
